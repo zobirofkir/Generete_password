@@ -14,6 +14,7 @@ def send_email(sender, recipient, subject, message, smtp_server, smtp_port, smtp
         server.login(smtp_username, smtp_password)
         server.sendmail(sender, recipient, email_message)
 
+
 smtp_server = 'your_smtp_server'
 smtp_port = 587
 smtp_username = 'your_username'
